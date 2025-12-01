@@ -1,3 +1,45 @@
-* {
-  background-color: white;
+
+
+:root {
+    --primary-color: #0056b3; /* Deeper Cyber Blue */
+    --accent-color: #e65100; /* Richer Electric Orange/Red */
+    --secondary-color: #f5f8ff; /* Soft off-white/light blue */
+    --dark-color: #212529; /* Near-black for structure */
+    --light-text: #ffffff;
+    --text-color: #495057; /* Dark gray for main text */
+}
+
+/* Footer */
+footer {
+  background-color: var(--dark-color);
+       color: var(--light-text);
+  padding: 30px 0; 
+    font-size: 0.9rem;
+}
+.footer-content {
+    display: flex;
+            justify-content: space-between;
+    align-items: flex-start;
+         flex-wrap: wrap;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #3a3f45;
+}
+.footer-logo h3 {
+  color: var(--accent-color);
+  margin-bottom: 10px;
+}
+.footer-links, .footer-social {
+    margin-top: 15px;
+}
+.footer-links a, .footer-social a {
+           display: block;
+           margin-bottom: 5px;
+    color: #b0b0b0;
+}
+.footer-links a:hover, .footer-social a:hover {
+      color: var(--primary-color);
+}
+.footer-bottom {
+    text-align: center;
+    padding-top: 20px;
 }
